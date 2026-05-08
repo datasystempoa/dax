@@ -1,0 +1,3 @@
+cascading_toegekende_tarieven = INT ( NOT ( ISEMPTY (dn_toegekende_tarieven)))
+
+//Deze formule kun je gebruiken in slicers om ervoor te zorgen dat filterwaarden waarvoor geen resultaten bestaan in de gefilterde tabel worden weggelaten. Voeg deze toe aan de filtersectie van de slicer op slicerniveau. Vervolgens kies je voor 'Items tonen wanneer de waarde is 1'
